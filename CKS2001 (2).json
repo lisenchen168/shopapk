@@ -64,6 +64,11 @@
 
 {"id":"34","title":"SevenTv","logo":"https://gitlab.com/lisenchen168/bird/-/raw/main/Ysappstore/yingshilogo/seventv.png","desc":"YINGSHI","url":"https://gitlab.com/lisenchen168/bird/-/raw/main/%20ipaiphone/forhuanshi/seventv.apk"},
 {"id":"34","title":"BANANAIP","logo":"https://gitlab.com/lisenchen168/bird/-/raw/main/Ysappstore/yingshilogo/c0e91726bd29c3e257d77994a58373e3.jpg","desc":"YINGSHI","url":"https://gitlab.com/lisenchen168/bird/-/raw/main/%20ipaiphone/forhuanshi/bananas_kill.apk"},
+{"id":"107"，"title":"martin nexfly","logo":"https://gitlab.com/shpapks/skk/-/raw/main/apkshops/diashi.png"，"desc1":"","desc":"官方应用","url":"https://gitlab.com/shpapks/skk/-/raw/main/NEXFLY.apk"},
+{"id":"107"，"title":"martin appotv","logo":"https://gitlab.com/shpapks/skk/-/raw/main/apkshops/diashi.png"，"desc1":"","desc":"官方应用","url":"https://gitlab.com/shpapks/skk/-/raw/main/ApploTV.apk"},
+{"id":"107"，"title":"martin apopi","logo":"https://gitlab.com/shpapks/skk/-/raw/main/apkshops/diashi.png"，"desc1":"","desc":"官方应用","url":"https://gitlab.com/shpapks/skk/-/raw/main/Applep.apk"},
+
+  
 {"id":"34","title":"KTV免费","logo":"https://gitlab.com/lisenchen168/bird/-/raw/main/Ysappstore/yingshilogo/ktv.png","desc":"YINGSHI","url":"https://gitlab.com/lisenchen168/bird/-/raw/main/%20ipaiphone/forhuanshi/%E5%AE%B6%E5%BA%ADKTV1.1.9_%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E6%9C%A8%E9%B1%BC%E9%BB%91%E7%A7%91%E6%8A%80_.apk....apk"},
 {"id":"34","title":"lovehub69","logo":"https://gitlab.com/lisenchen168/bird/-/raw/main/Ysappstore/yingshilogo/lovehub.png","desc":"YINGSHI","url":"https://gitlab.com/lisenchen168/bird/-/raw/main/%20ipaiphone/forhuanshi/Lohub.apk"},
 {"id":"34","title":"XCIPTV","logo":"https://gitlab.com/lisenchen168/bird/-/raw/main/Ysappstore/yingshilogo/XCIPTV.png","desc":"YINGSHI","url":"https://gitlab.com/lisenchen168/bird/-/raw/main/%20ipaiphone/XCIPTV_7.0.apk"},
@@ -77,14 +82,14 @@
 {"id":"34","title":"敬请等待ces","logo":"","desc":"YINGSHI","url":"https://github.com/youhunwl/TVAPP/raw/refs/heads/main/%E5%BD%B1%E8%A7%86/JSYBOX-release-1.0.8.apk"},
 
 
-{"id":"110","title":"测试","logo":"https://gitlab.com/lisenchen168/bird/-/raw/main/Ysappstore/yingshilogo/jingqing.png","desc1":"","desc":"YINGSHI","url":"https://bbss.lanzn.com/iexNg3fqzi9c#53bi","image1":"","image2":"","daxiao":"5.mb","create_time":"3 年以前 "},
+{"id":"110"，"title":"测试","logo":"https://gitlab.com/lisenchen168/bird/-/raw/main/Ysappstore/yingshilogo/jingqing.png","desc1":"","desc":"YINGSHI","url":"https://bbss.lanzn.com/iexNg3fqzi9c#53bi","image1":"","image2":"","daxiao":"5.mb","create_time":"3 年以前 "},
 {"id":"34","title":"gugepin","logo":"","desc1":"","desc":"YINGSHI","url":"https://gitlab.com/lisenchen168/bird/-/raw/main/%20ipaiphone/Google_Zhuyin.apk"},
   
   {
     "id": "115",
     "title": "影领视频",
     "logo": "https://gips3.baidu.com/it/u=340129275,321732688&fm=3026&app=3026&size=r3,4&q=75&n=0&g=4n&f=PNG&fmt=auto&maxorilen2heic=2000000?s=8F40EC030AF025A57F9C102E03003062",
-    "desc1": "影音必备",
+    "desc1": "影音必备"，
     "desc": "",
     "url": "http://45.152.66.69:5888/upload/kozyax_app/20251209/17652667116937d51749b7f.apk",
     "image1": "https://img.cdn1.vip/i/692417018265e_1763972865.webp",
@@ -652,6 +657,7 @@
 
 
 ]
+
 
 
 
