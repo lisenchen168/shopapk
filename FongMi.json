@@ -1,6 +1,6 @@
 {
-    "spider": "https://cnb.cool/fish2018/zx/-/git/raw/master/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
-    "wallpaper": "https://bing.img.run/rand.php"
+    "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+    "wallpaper": "https://bing.img.run/rand.php",
     "lives": [
         {
             "name": "feiyang.allinone",
@@ -43,30 +43,7 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
-    "sites": [{
-            "key": "GuaZi",
-            "name": "瓜子影视",
-            "type": 3,
-            "api": "csp_GuaZi",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
-            }
-        },{
-            "key": "Jpys",
-            "name": "金牌影视",
-            "type": 3,
-            "api": "csp_Jpys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://www.ksnnhbj.com",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
-            }
-        },
+    "sites": [
         {
             "key": "Tg | 豆瓣",
             "name": "Tg | 豆瓣",
@@ -78,8 +55,8 @@
                 "siteUrl": "https://tgsou.252035.xyz",
                 "count": 4,
                 "channelUsername": "tgsearchers3,guaguale115,ydypzyfx,shareAliyun,ucpanpan,ucquark,alyp_1,hao115",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/douban.json"
+                "commonConfig": "./json/peizhi.json",
+                "filter": "./json/douban.json"
             }
         },
         {
@@ -93,8 +70,8 @@
             "ext": {
                 "siteUrl": "https://tgsou.252035.xyz",
                 "channelUsername": "tgsearchers3",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/douban.json"
+                "commonConfig": "./json/peizhi.json",
+                "filter": "./json/douban.json"
             }
         },
         {
@@ -108,10 +85,10 @@
                 "siteUrl": "https://p2t.252035.xyz",
                 "count": 20,
                 "channelUsername": "",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/douban.json"
+                "commonConfig": "./json/peizhi.json",
+                "filter": "./json/douban.json"
             }
-        }，
+        },
         {
             "key": "ConfigCenter",
             "name": "配置中心",
@@ -120,11 +97,34 @@
             "searchable": 0,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
-        
-        
+        {
+            "key": "Jpys",
+            "name": "金牌影视",
+            "type": 3,
+            "api": "csp_Jpys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://www.ksnnhbj.com",
+                "commonConfig": "./json/peizhi.json"
+            }
+        },
+        {
+            "key": "GuaZi",
+            "name": "瓜子影视",
+            "type": 3,
+            "api": "csp_GuaZi",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json"
+            }
+        },
         {
             "key": "聚合短剧",
             "name": "聚合短剧",
@@ -132,7 +132,7 @@
             "api": "csp_JuheShortDrama",
             "searchable": 1,
             "filterable": 0,
-            "switchable": 0，
+            "switchable": 0,
             "ext": {
                 "host": {
                     "百度": "https://api.jkyai.top",
@@ -141,15 +141,15 @@
                     "番茄": "https://reading.snssdk.com",
                     "番茄2": "https://fqgo.52dns.cc",
                     "星芽": "https://app.whjzjx.cn",
-                    "星芽登录": "https://u.shytkjgs.com"，
+                    "星芽登录": "https://u.shytkjgs.com",
                     "西饭": "https://xifan-api-cn.youlishipin.com",
                     "七猫": "https://api-store.qmplaylet.com",
                     "七猫详情": "https://api-read.qmplaylet.com",
-                    "围观": "https://api.drama.9ddm.com"，
+                    "围观": "https://api.drama.9ddm.com",
                     "碎片": "https://free-api.bighotwind.cc",
                     "碎片图片": "https://speed.hiknz.com"
                 },
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -160,7 +160,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -171,7 +171,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -182,7 +182,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "https://www.gyg.la/",
                 "username": "",
                 "password": ""
@@ -197,8 +197,8 @@
             "filterable": 0,
             "switchable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
-                "share": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/网盘集合.json"
+                "commonConfig": "./json/peizhi.json",
+                "share": "./json/网盘集合.json"
             }
         },
         {
@@ -211,7 +211,7 @@
             "switchable": 0,
             "ext": {
                 "siteUrl": "https://www.qwnull.com",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -233,7 +233,7 @@
                         "花絮"
                     ]
                 },
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -252,7 +252,7 @@
                 "client": "Yamby",
                 "clientVersion": "0.2.3",
                 "deviceName": "oppo find x9 pro",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             },
             "changeable": 1
         },
@@ -271,46 +271,46 @@
                 "ua": "",
                 "client": "Yamby",
                 "deviceName": "Yamby",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             },
             "changeable": 1
         },
         {
             "key": "游戏 | 直播",
-            "name": "游戏 | 直播"，
+            "name": "游戏 | 直播",
             "type": 3,
             "api": "csp_Living",
             "searchable": 1,
             "changeable": 0,
             "ext": {
                 "siteUrl": "https://bt.muxia.fun/api",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
             "key": "玩偶 | 木偶",
-            "name": "玩偶 | 木偶"，
+            "name": "玩偶 | 木偶",
             "type": 3,
             "api": "csp_kongbai",
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "https://www.muou.site/",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
             "key": "玩偶 | 闪电uc",
             "name": "玩偶 | 闪电uc",
             "type": 3,
-            "api": "csp_kongbai"，
+            "api": "csp_kongbai",
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "http://1.95.79.193/",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -321,9 +321,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "https://wexwp.cc/",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -334,9 +334,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "https://www.milvdou.fun/",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -347,9 +347,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "http://tv.yydsys.top/",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -360,9 +360,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "http://www.labi88.sbs/",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -373,9 +373,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "https://woog.nxog.eu.org/",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -386,9 +386,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "http://woggpan.wogg.lol/",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -399,9 +399,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "http://103.45.162.207:20720/",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -412,9 +412,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "http://xsayang.fun:12512",
-                "filter": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -427,7 +427,7 @@
             "switchable": 0,
             "ext": {
                 "siteUrl": "https://1.star2.cn/",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -442,8 +442,8 @@
                 "ratio": 1.433
             },
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
-                "json": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/youtube.json"
+                "commonConfig": "./json/peizhi.json",
+                "json": "./json/youtube.json"
             }
         },
         {
@@ -456,7 +456,7 @@
             "switchable": 0,
             "ext": {
                 "siteUrl": "https://www.tianyiso.com",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -466,7 +466,7 @@
             "api": "csp_Jianpian",
             "searchable": 1,
             "changeable": 1,
-            "ext": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/jianpian.json"
+            "ext": "./json/jianpian.json"
         },
         {
             "key": "lf_live10_min",
@@ -477,7 +477,7 @@
             "filterable": 1,
             "changeable": 1,
             "api": "./lib/lf_live10_min-output.js",
-            "ext": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/lf_live.json"
+            "ext": "./json/lf_live.json"
         },
         {
             "key": "哔哩FM",
@@ -491,8 +491,8 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/bilibili.json",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json",
+                "json": "./json/bilibili.json",
+                "commonConfig": "./json/peizhi.json",
                 "cookie": ""
             }
         },
@@ -507,7 +507,7 @@
             "ext": {
                 "count": 4,
                 "channelUsername": "tgsearchers3,guaguale115,ydypzyfx,shareAliyun,ucpanpan,ucquark,alyp_1,hao115",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -520,7 +520,7 @@
             "switchable": 0,
             "ext": {
                 "siteUrl": "https://www.91panta.cn/",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -534,7 +534,7 @@
             "ext": {
                 "siteUrl": "https://www.leijing1.com/",
                 "cookie": "JSESSIONID=B24E6992236274BD6A636FE8EAA2FDA; cms_token=25968d70e1c64c3fa475c5bb15946443; cms_accessToken=8c67340ebecb46b88f9c85492bfe1cf1; cms_refreshToken=0af0ab743ae243be99b29c2af5b449a",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -547,7 +547,7 @@
             "switchable": 0,
             "ext": {
                 "cookie": "",
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -558,7 +558,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -569,7 +569,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -579,7 +579,7 @@
             "api": "csp_AList",
             "searchable": 1,
             "changeable": 0,
-            "ext": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/alist.json"
+            "ext": "./json/alist.json"
         },
         {
             "key": "push_agent",
@@ -590,7 +590,7 @@
             "filterable": 0,
             "switchable": 0,
             "ext": {
-                "commonConfig": "https://cnb.cool/fish2018/zx/-/tree/106866e7d673b53a893243297f69ec9b920bc275/json/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
