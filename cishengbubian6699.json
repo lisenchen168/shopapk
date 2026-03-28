@@ -1,0 +1,21 @@
+{
+  "storeHouse": [{
+      "sourceName": "小天儿",
+      "sourceUrl": "https://cnb.cool/xduoapi/cool/-/blob/main/ck/%E5%A4%9A%E5%A4%9A%E8%BD%AF%E4%BB%B6%E5%BA%932.txt"
+    },
+
+    {
+      "sourceName": "小天儿",
+      "sourceUrl": "https://cnb.cool/xduoapi/cool/-/git/raw/main/ck/多多影音1.txt"
+    },
+    {
+      "sourceName": "瑶瑶更新",
+      "sourceUrl": "https://gitlab.com/liddcc-group/shooapk/shooaapk/-/raw/main/66QQTEST/lele/N3RD/T/%E5%93%9F%E5%95%8A%E8%A6%81%E6%9B%B4%E6%96%B0.json"
+    },
+    {
+      "sourceName": "非诚18",
+      "sourceUrl": "https://gitlab.com/liddcc-group/shooapk/shooaapk/-/raw/main/66QQTEST/lele/N3RD/T/BIGBARBAR.json"
+    }
+  ]
+
+}
