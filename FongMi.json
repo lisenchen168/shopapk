@@ -2,7 +2,38 @@
     "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
     "wallpaper": "https://bing.img.run/rand.php",
     "lives": [
-      
+        {
+            "name": "feiyang.allinone",
+            "type": 0,
+            "url": "http://127.0.0.1:35457/tv.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "feiyang.bililive",
+            "type": 0,
+            "url": "http://127.0.0.1:35457/bililive.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "feiyang.huyayqk",
+            "type": 0,
+            "url": "http://127.0.0.1:35457/huyayqk.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "feiyang.douyuyqk",
+            "type": 0,
+            "url": "http://127.0.0.1:35457/douyuyqk.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
         {
             "name": "feiyang.yylunbo",
             "type": 0,
@@ -24,8 +55,8 @@
                 "siteUrl": "https://tgsou.252035.xyz",
                 "count": 4,
                 "channelUsername": "tgsearchers3,guaguale115,ydypzyfx,shareAliyun,ucpanpan,ucquark,alyp_1,hao115",
-                "commonConfig": "./peizhi.json",
-                "filter": "./douban.json"
+                "commonConfig": "./json/peizhi.json",
+                "filter": "./json/douban.json"
             }
         },
         {
@@ -117,7 +148,7 @@
                     "围观": "https://api.drama.9ddm.com",
                     "碎片": "https://free-api.bighotwind.cc",
                     "碎片图片": "https://speed.hiknz.com"
-                }，
+                },
                 "commonConfig": "./json/peizhi.json"
             }
         },
@@ -143,7 +174,47 @@
                 "commonConfig": "./json/peizhi.json"
             }
         },
-         {
+        {
+            "key": "观影",
+            "name": "网盘 | 观影",
+            "type": 3,
+            "api": "csp_GuanYing",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "https://www.gyg.la/",
+                "username": "",
+                "password": ""
+            }
+        },
+        {
+            "key": "网盘集合",
+            "name": "网盘集合 | 4K",
+            "type": 3,
+            "api": "csp_网盘集合",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "share": "./json/网盘集合.json"
+            }
+        },
+        {
+            "key": "网盘 | 片库",
+            "name": "网盘 | 片库",
+            "type": 3,
+            "api": "csp_Qiwei",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "siteUrl": "https://www.qwnull.com",
+                "commonConfig": "./json/peizhi.json"
+            }
+        },
+        {
             "key": "pansou | fish",
             "name": "pansou | fish",
             "type": 3,
@@ -156,7 +227,7 @@
                     "include": [
                         "HDR",
                         "高码"
-                    ]，
+                    ],
                     "exclude": [
                         "预告",
                         "花絮"
@@ -377,7 +448,7 @@
         },
         {
             "key": "盤搜天意",
-            "name": "网盘 | 盤搜天意"，
+            "name": "网盘 | 盤搜天意",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -401,9 +472,9 @@
             "key": "lf_live10_min",
             "name": "路飞丨Live",
             "type": 3,
-            "searchable": 0，
-            "quickSearch": 1，
-            "filterable": 1，
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
             "changeable": 1,
             "api": "./lib/lf_live10_min-output.js",
             "ext": "./json/lf_live.json"
@@ -537,7 +608,7 @@
                 "日本剧",
                 "电影片",
                 "连续剧",
-                "综艺片"，
+                "综艺片",
                 "动漫片",
                 "动作片",
                 "喜剧片",
