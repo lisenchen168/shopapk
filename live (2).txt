@@ -18,8 +18,8 @@
         },   	
         
         {
-            "url": "http://www.饭太硬.com/tv",
-            "name": "🚀多多┃饭太硬线路"
+            "url": "http://rihou.cc:555/nzk/nzk0722.json",
+            "name": "🚀多多┃大佬线路"
         },                                                                                                 
        {
             "url": "http://ok213.top/tv",
