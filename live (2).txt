@@ -1,5 +1,9 @@
 {
     "urls": [
+{
+            "url": "http://肥猫.com",
+            "name": "🚀肥猫线路"
+        }, 
         {
             "url": "http://tv.laohu.cool/tvbox.json",
             "name": "🚀多多┃快播线路"
