@@ -2,7 +2,7 @@
 
 {
 
-"spider":"./lib/spider.jar",
+"spider":"https://github.com/lisenchen168/shopapk/raw/refs/heads/main/spider%20(4).jar",
 //"spider":"https://lz.qaiu.top/d/lz/ijfdS2y7122j",	
 "lives": [{"name": "live","type": 0,
 "url": "./live.txt","playerType":2,
@@ -14,9 +14,11 @@
 }],
 
 "sites":[
+{"key":"热播影视","name":"热播影视","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
+
 	
 {"key":"豆豆","name":"胜寒提醒您：请勿相信视频中广告！","type":3,"api":"csp_Douban","indexs":1,"searchable":0,"quickSearch":0,"filterable":0},
-
+{"jar":"https://gitlab.com/liddcc-group/shooapk/shooaapk/-/raw/main/66QQTEST/lele/N3RD/J/market.jar","key":"csp_Market","name":"瑶瑶 | 应用更新商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"https://gitlab.com/liddcc-group/shooapk/shooaapk/-/raw/main/66QQTEST/lele/N3RD/T/market.json?ref_type=heads"},
 {"key":"xiaozhen","name":"小镇影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
 	"ext":{"线路数组":"<a data-toggle=\"tab\"&&/a>","线路标题":">&&<","分类url":"http://dyxz.tv/list/{cateId}_{catePg}.html","分类":"电影$1#电视剧$2#动漫$3#综艺$4"}},	
 
